@@ -1,0 +1,74 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="success">
+    <ion-buttons slot="start">
+      <ion-back-button text=""></ion-back-button>
+    </ion-buttons>
+    <ion-title>My pickup calls</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar color="success">
+      <ion-title size="large">My pickup calls</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="hourglass-outline" slot="start" color="warning">
+        </ion-icon>
+        <ion-label>On hold
+          <p>21/08/2024 15:12:00</p>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Created at 20/08/2024 12:00:00</p>
+          <p>Notes: we have two bags that are full. one with plastic and  the other with glass</p>
+        </ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="archive-outline" slot="start" color="secondary">
+        </ion-icon>
+        <ion-label>Processing
+          <p>21/08/2024 15:12:00</p>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Created at 20/08/2024 12:00:00</p>
+          <p>Notes: we have two bags that are full. one with plastic and  the other with glass</p>
+        </ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-content>
+      <ion-item lines="none">
+        <ion-icon name="checkmark-circle-outline" slot="start" color="primary">
+        </ion-icon>
+        <ion-label>Finished
+          <p>21/08/2024 15:12:00</p>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-label>
+          <p>Created at 20/08/2024 12:00:00</p>
+        </ion-label>
+      </ion-item>
+      <ion-item lines="none">
+        <ion-icon name="trophy" slot="start" color="success"></ion-icon>
+        <ion-label color="success">$ 15,00</ion-label>
+      </ion-item>
+    </ion-card-content>
+  </ion-card>
+
+</ion-content>
