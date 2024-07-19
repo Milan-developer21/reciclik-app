@@ -37,9 +37,13 @@
 //@import "@ionic/angular/css/palettes/dark.system.css";
 
 
-.flex-center{
+.flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
+}
+
+.w-100 {
+  width: 100%;
 }
